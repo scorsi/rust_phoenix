@@ -1,0 +1,7 @@
+<form phx-change="change" phx-submit="compute">
+    <input type="number" name="a" value="<%= @a %>" list="results" autocomplete="off"/>
+    <input type="number" name="b" value="<%= @b %>" list="results" autocomplete="off"/>
+    <h2>The result is: <%= @result %></h2>
+    <button type="submit">Compute</button>
+    <button onClick="sayHelloRust()">Say Hello Rust</button>
+</form>
